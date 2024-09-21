@@ -1,0 +1,6 @@
+USE jiaoxuedb
+GO
+SELECT TN, SALSUM
+FROM SAL_View
+WHERE TN = 'уееС'
+GO

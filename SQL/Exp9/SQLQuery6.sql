@@ -1,0 +1,6 @@
+USE jxsk
+GO
+DELETE
+FROM C
+WHERE CNO = 'C1'
+GO

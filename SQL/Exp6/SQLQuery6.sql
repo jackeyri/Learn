@@ -1,0 +1,5 @@
+USE jxsk
+GO
+DELETE View_S
+WHERE Sno = 'S8'
+GO

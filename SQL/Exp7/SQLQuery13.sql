@@ -1,0 +1,9 @@
+USE jxsk
+GO
+SELECT S.SNO, SN, CN, SCORE
+FROM S,
+     C,
+     SC
+WHERE S.SNO = SC.SNO
+  AND C.CNO = SC.CNO
+GO

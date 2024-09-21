@@ -1,0 +1,9 @@
+ALTER TRIGGER TRIGGER_S
+    ON S FOR
+    DELETE
+    AS
+    DECLARE
+        @SNO_DEL char(2)
+    SELECT @SNO_DEL = SNO
+    FROM Deleted
+    WHERE SNO = @SNO_DEL

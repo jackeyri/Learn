@@ -1,0 +1,4 @@
+USE jxsk
+GO
+DROP TABLE T
+GO

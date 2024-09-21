@@ -1,0 +1,6 @@
+USE jxsk
+GO
+SELECT SN, SNO, SEX
+FROM S
+WHERE SN LIKE '¿Ó%'
+GO

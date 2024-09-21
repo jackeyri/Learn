@@ -1,0 +1,7 @@
+USE jxsk
+GO
+SELECT SN AS 姓名, DEPT AS 系名
+FROM S
+WHERE SN LIKE '_明%'
+  AND SEX = '男'
+GO

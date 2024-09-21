@@ -1,0 +1,6 @@
+USE jiaoxuedb
+GO
+CREATE VIEW SAL_View AS
+SELECT Tname AS TN, Sex AS SEX, Prof AS PROF, Sal + Comm AS SALSUM, Dept AS DEPT
+FROM Teacher
+GO

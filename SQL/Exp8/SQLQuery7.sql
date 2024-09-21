@@ -1,0 +1,4 @@
+USE jxsk
+GO
+DROP PROCEDURE Pro_Qscore
+GO

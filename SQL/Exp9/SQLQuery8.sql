@@ -1,0 +1,15 @@
+USE jxsk
+GO
+ALTER TRIGGER TRIGGER_DC
+    ON C FOR DELETE
+    AS DECLARE
+    @CNO_DEL char(2)
+    SELECT @CNO_DEL = CNO
+    FROM Deleted
+    DELETE
+    FROM SC
+    WHERE CNO = @CNO_DEL
+    DELETE
+    FROM TC
+    WHERE CNO = @CNO_DEL
+GO

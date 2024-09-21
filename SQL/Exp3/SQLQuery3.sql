@@ -1,0 +1,6 @@
+USE jxsk
+GO
+DELETE
+FROM T
+WHERE TN = 'Õı∆Ω'
+GO

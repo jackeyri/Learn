@@ -1,0 +1,4 @@
+USE jxsk
+GO
+DROP VIEW View_CTABLE
+GO

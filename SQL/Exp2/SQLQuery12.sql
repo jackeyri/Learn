@@ -1,0 +1,2 @@
+USE jiaoxuedb
+DROP TABLE TC

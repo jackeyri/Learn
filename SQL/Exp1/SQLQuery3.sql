@@ -1,0 +1,1 @@
+exec sp_detach_db testbase1, true

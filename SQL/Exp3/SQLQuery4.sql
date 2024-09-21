@@ -1,0 +1,6 @@
+USE jxsk
+GO
+SELECT *
+INTO test1
+FROM S
+GO

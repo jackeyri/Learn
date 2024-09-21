@@ -1,0 +1,6 @@
+CREATE TABLE C
+(
+    CNO CHAR(2),
+    CN  CHAR(10),
+    CT  TINYINT
+)

@@ -1,0 +1,7 @@
+USE jxsk
+GO
+SELECT TN, SEX, AGE, PROF
+INTO Test2
+FROM T
+WHERE SEX = 'ÄÐ'
+GO

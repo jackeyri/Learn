@@ -1,0 +1,7 @@
+USE jxsk
+GO
+SELECT SNO, CNO, SCORE
+INTO makeup_s
+FROM SC
+WHERE SCORE < 60
+GO

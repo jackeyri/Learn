@@ -1,0 +1,6 @@
+CREATE TABLE SC
+(
+    SNO   CHAR(2),
+    CNO   NCHAR(2),
+    SCORE TINYINT
+)

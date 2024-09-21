@@ -1,0 +1,7 @@
+USE jiaoxuedb
+GO
+UPDATE SCORE_View
+SET Score=100
+WHERE SNO = '991102'
+  AND CN = (SELECT Cname FROM Course WHERE Cno = '01001')
+GO

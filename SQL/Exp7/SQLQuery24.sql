@@ -1,0 +1,10 @@
+USE jxsk
+GO
+SELECT *
+FROM S
+WHERE DEPT = '¼ÆËã»ú'
+UNION
+SELECT *
+FROM S
+WHERE AGE <= 19
+GO

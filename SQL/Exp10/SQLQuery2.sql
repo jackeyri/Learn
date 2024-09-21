@@ -1,0 +1,4 @@
+USE jxsk
+SELECT SNO AS 学号, SN AS 姓名, 性别=CASE SEX WHEN '男' THEN 'M' WHEN '女' THEN 'F' END
+FROM S
+GO

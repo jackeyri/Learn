@@ -1,0 +1,6 @@
+USE jxsk
+GO
+UPDATE T
+SET PROF='副教授'
+WHERE TN = '王平'
+GO

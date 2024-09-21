@@ -1,0 +1,7 @@
+USE jxsk
+GO
+SELECT SN AS 姓名, DEPT AS 系名
+FROM S
+WHERE DEPT IN ('信息', '计算机')
+ORDER BY DEPT, SN DESC
+GO

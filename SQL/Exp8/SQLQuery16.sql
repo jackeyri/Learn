@@ -1,0 +1,2 @@
+USE jiaoxuedb
+DROP PROCEDURE Pro_Sn

@@ -1,0 +1,5 @@
+USE jxsk
+GO
+SELECT SN, year(GETDATE()) - AGE AS 出生年份
+FROM S
+GO

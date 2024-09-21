@@ -1,0 +1,6 @@
+USE jxsk
+GO
+SELECT CNO AS ¿Î³ÌºÅ, COUNT(SNO) AS ÈËÊý
+FROM SC
+GROUP BY CNO
+GO

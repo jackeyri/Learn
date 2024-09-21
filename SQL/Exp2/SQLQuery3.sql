@@ -1,0 +1,5 @@
+CREATE TABLE TC
+(
+    TNO CHAR(2),
+    CNO CHAR(2)
+)

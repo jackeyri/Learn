@@ -1,0 +1,40 @@
+USE jxsk
+SELECT CN AS 课程名, count(*) AS '60以下人数'
+FROM C,
+     SC
+WHERE SC.CNO = C.CNO
+  AND SCORE < 60
+GROUP BY CN
+
+SELECT CN AS 课程名, count(*) AS '60~70人数'
+FROM C,
+     SC
+WHERE SC.CNO = C.CNO
+  AND SCORE > 60
+  AND SCORE < 70
+GROUP BY CN
+
+SELECT CN AS 课程名, count(*) AS '70~80人数'
+FROM C,
+     SC
+WHERE SC.CNO = C.CNO
+  AND SCORE > 70
+  AND SCORE < 80
+GROUP BY CN
+
+SELECT CN AS 课程名, count(*) AS '80~90人数'
+FROM C,
+     SC
+WHERE SC.CNO = C.CNO
+  AND SCORE > 80
+  AND SCORE < 90
+GROUP BY CN
+
+SELECT CN AS 课程名, count(*) AS '90~100人数'
+FROM C,
+     SC
+WHERE SC.CNO = C.CNO
+  AND SCORE > 90
+  AND SCORE < 100
+GROUP BY CN
+GO

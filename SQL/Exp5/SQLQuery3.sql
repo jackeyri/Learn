@@ -1,0 +1,4 @@
+USE jxsk
+GO
+DROP INDEX T.IND_TN_AGE
+GO

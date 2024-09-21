@@ -1,0 +1,15 @@
+USE jxsk
+GO
+SELECT DISTINCT (SN) AS 姓名, DEPT AS 系名
+FROM C AS C1,
+     C AS C2,
+     SC AS SC1,
+     SC AS SC2,
+     S
+WHERE C1.CNO = SC1.CNO
+  AND C2.CNO = SC2.CNO
+  AND C1.CN = '程序设计'
+  AND C2.CN = '微机原理'
+  AND SC1.SNO = SC2.SNO
+  AND SC1.SNO = S.SNO
+GO

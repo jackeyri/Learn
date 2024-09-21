@@ -1,0 +1,7 @@
+USE jxsk
+SELECT S.DEPT, count(DISTINCT TNO) "教师数", count(DISTINCT SNO) "学生数"
+FROM T
+         FULL JOIN S ON S.DEPT = T.DEPT
+GROUP BY S.DEPT
+ORDER BY "教师数" ASC, "学生数" ASC
+GO

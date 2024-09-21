@@ -1,0 +1,6 @@
+USE jxsk
+GO
+SELECT COUNT(*) AS 计算机系人数
+FROM S
+WHERE DEPT = '计算机'
+GO

@@ -1,0 +1,5 @@
+USE jxsk
+GO
+SELECT *
+FROM S;
+GO
